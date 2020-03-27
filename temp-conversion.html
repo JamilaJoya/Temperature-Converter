@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="temp-conversion.css" />
+    <title>Temp-conversion</title>
+  </head>
+  <body>
+    <div class="container">
+      <h4>Tempreture Conversion</h4>
+      <div class="wrapper">
+        <input
+          type="text"
+          placeholder="Enter degree in C/K to convert"
+          id="input"
+          name="degree"
+        />
+      </div>
+      <div class="wrapper">
+        <button class="btn" id="btnc">ToCelcius</button>
+        <button class="btn" id="btnf">ToFahrenheit</button>
+        <button class="btn" id="clear">Clear</button>
+      </div>
+
+      <div class="wrapper">
+        <div class="result c"></div>
+        <div class="result f"></div>
+      </div>
+    </div>
+    <script src="temp-conversion.js"></script>
+  </body>
+</html>

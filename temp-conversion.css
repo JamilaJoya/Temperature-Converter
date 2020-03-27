@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: lightblue;
+  height: 40vh;
+  width: 600px;
+  margin: auto;
+  margin-top: 10vh;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.result {
+  margin-left: 20px;
+}
+#input {
+  padding: 5px;
+  margin: 10px;
+  width: 80%;
+  border-radius: 3px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 4px 6px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+h4 {
+  text-align: center;
+}
+#btnc {
+  margin-left: 15px;
+}
