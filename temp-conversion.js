@@ -5,7 +5,7 @@ document.querySelector("#btnc").addEventListener("click", function() {
     var fahrenheit = document.getElementById("input").value;
     var celcius = (fahrenheit - 32) * (5 / 9);
     document.querySelector(".c").textContent =
-      fahrenheit + " fahrenheit degree is " + celcius + " celcius degree.";
+       fahrenheit + " F is " + celcius + " C degree.";
   } else {
     isValid = false;
   }
@@ -15,7 +15,7 @@ document.querySelector("#btnf").addEventListener("click", function() {
   if (isValid) {
     var celcius = document.getElementById("input").value;
     var fahrenheit = (celcius * 9) / 5 + 32;
-    document.querySelector(".c").textContent = fahrenheit;
+    document.querySelector(".c").textContent =  celcius + " C is " + fahrenheit + " F degree.";
   } else {
     isValid = false;
   }
